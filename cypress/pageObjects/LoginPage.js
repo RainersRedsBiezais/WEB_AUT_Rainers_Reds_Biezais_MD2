@@ -29,12 +29,4 @@ export class LoginPage extends BasePage{
     static get validateAppointmentHistory(){
         return cy.get("[class='col-sm-12 text-center']");
     }
-    
-    
-
-    
-
-    
-
-
 }

@@ -25,7 +25,7 @@ describe("MD2", () => {
             AppointmentPage.validateAppointment.contains("30");
             AppointmentPage.validateAppointment.contains("CURA Healthcare Service");
         });
-        it.only("Make Appointment", () => {
+        it.only("Appointment history empty", () => {
             LoginPage.visit();
 
             LoginPage.clickLoginButton.click();
@@ -39,6 +39,5 @@ describe("MD2", () => {
             LoginPage.validateAppointmentHistory.contains("No appointment")
 
         });
-
     });
 });
